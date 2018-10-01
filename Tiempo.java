@@ -19,11 +19,10 @@ public class Tiempo  extends Actor
     {
         if(timer.millisElapsed()>1000){
            contador.setValue(contador.getValue()-1);
-           if(contador.getVAlue()==0){
-               
+           if(contador.getValue()==0){
+               Greenfoot.stop();
             }
            timer.mark();
-           
         }
     }
 }
