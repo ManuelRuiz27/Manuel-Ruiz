@@ -14,17 +14,8 @@ public class Worm extends Actor
      */
     public Worm(int cantidad)
     {  
-        Worm gusano; 
-        for(int i=0;i<cantidad;i++)
-        {
-            int n=600;
-            int x,y;
-            x=(int)(Math.random()*n) + 1;
-            y=(int)(Math.random()*n) + 1;
-            world.addObject(gusano,x,y);
-        }
     }
-     public void act() 
+    public void act() 
     {
         // Add your action code here.
     }    

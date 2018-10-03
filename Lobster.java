@@ -15,5 +15,10 @@ public class Lobster extends Actor
     public void act() 
     {
         // Add your action code here.
+        super.move(4);
+        for(int i=0;i<2000;i++)
+        {
+            
+        }
     }    
 }
